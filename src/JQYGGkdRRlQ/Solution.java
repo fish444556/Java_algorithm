@@ -29,9 +29,14 @@ public class Solution {
 //        Metals mt = new Metals();
 //        mt.testing();
         
-        Palindrome pp = new Palindrome();
+//        Palindrome pp = new Palindrome();        
+//        System.out.println(pp.testing());
         
-        System.out.println(pp.testing());
+//        SegmentTreeRMQ st = new SegmentTreeRMQ();
+//        st.main(null);
+        
+        SubstringWithStar sw = new SubstringWithStar();
+        System.out.println(sw.testing());
     }
 }
 
