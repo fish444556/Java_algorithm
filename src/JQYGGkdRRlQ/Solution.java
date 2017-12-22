@@ -35,8 +35,11 @@ public class Solution {
 //        SegmentTreeRMQ st = new SegmentTreeRMQ();
 //        st.main(null);
         
-        SubstringWithStar sw = new SubstringWithStar();
-        System.out.println(sw.testing());
+//        SubstringWithStar sw = new SubstringWithStar();
+//        System.out.println(sw.testing());
+        
+        CanReach cr = new CanReach();
+        System.out.println(cr.testing());
     }
 }
 
