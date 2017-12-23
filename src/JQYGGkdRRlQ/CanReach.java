@@ -7,6 +7,12 @@ public class CanReach {
 		return canReach(s1, d1);
 	}
 	
+	public boolean testing2() {
+		int[] s1 = {1, 2};
+		int[] d1 = {2, 1};
+		return canReach(s1, d1);
+	}
+	
 	public boolean canReach(int[] s, int[] d) {
 		if (s.length != 2 || d.length != 2 || s[0] > d[0] || s[1] > d[1]) {
 			return false;

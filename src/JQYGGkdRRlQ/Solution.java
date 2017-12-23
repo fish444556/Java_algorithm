@@ -44,8 +44,11 @@ public class Solution {
 //        PreSuffix ps = new PreSuffix();
 //        System.out.println(ps.testing());
         
-        FinalDiscounted fd = new FinalDiscounted();
-        System.out.println(fd.testing());
+//        FinalDiscounted fd = new FinalDiscounted();
+//        System.out.println(fd.testing());
+        
+        RGB rgb = new RGB();
+        System.out.println(rgb.testing());
     }
 }
 
