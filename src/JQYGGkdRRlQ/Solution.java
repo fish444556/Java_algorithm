@@ -38,8 +38,14 @@ public class Solution {
 //        SubstringWithStar sw = new SubstringWithStar();
 //        System.out.println(sw.testing());
         
-        CanReach cr = new CanReach();
-        System.out.println(cr.testing());
+//        CanReach cr = new CanReach();
+//        System.out.println(cr.testing());
+        
+//        PreSuffix ps = new PreSuffix();
+//        System.out.println(ps.testing());
+        
+        FinalDiscounted fd = new FinalDiscounted();
+        System.out.println(fd.testing());
     }
 }
 
