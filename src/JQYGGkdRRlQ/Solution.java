@@ -26,8 +26,8 @@ public class Solution {
 //        Task ts = new Task();
 //        ts.testing();
 //        
-//        Metals mt = new Metals();
-//        mt.testing();
+        Metals mt = new Metals();
+        mt.testing();
         
 //        Palindrome pp = new Palindrome();        
 //        System.out.println(pp.testing());
@@ -47,8 +47,8 @@ public class Solution {
 //        FinalDiscounted fd = new FinalDiscounted();
 //        System.out.println(fd.testing());
         
-        RGB rgb = new RGB();
-        System.out.println(rgb.testing());
+//        RGB rgb = new RGB();
+//        System.out.println(rgb.testing());
     }
 }
 
