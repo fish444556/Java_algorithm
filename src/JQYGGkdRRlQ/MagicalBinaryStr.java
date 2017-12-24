@@ -49,6 +49,7 @@ public class MagicalBinaryStr {
 		return str;
 	}
 
+//	https://www.careercup.com/question?id=5717623189798912
 //	public static int ismagic(String str, int i, int j) {
 //		if (i == j)
 //			return -1;

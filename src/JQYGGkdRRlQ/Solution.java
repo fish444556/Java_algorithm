@@ -59,8 +59,14 @@ public class Solution {
 //        ReformattingDate rf = new ReformattingDate();
 //        System.out.println(rf.testing());
         
-        MagicalBinaryStr mb = new MagicalBinaryStr();
-        System.out.println(mb.testing());
+//        MagicalBinaryStr mb = new MagicalBinaryStr();
+//        System.out.println(mb.testing());
+        
+        SubArrayProducts ss = new SubArrayProducts();
+        System.out.println(ss.testing());
+        
+//        UniqueArraySum ua = new UniqueArraySum();
+//        System.out.println(ua.testing());
     }
 }
 
