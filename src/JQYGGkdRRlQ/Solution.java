@@ -25,9 +25,9 @@ public class Solution {
         
 //        Task ts = new Task();
 //        ts.testing();
-//        
-        Metals mt = new Metals();
-        mt.testing();
+        
+//        Metals mt = new Metals();
+//        mt.testing();
         
 //        Palindrome pp = new Palindrome();        
 //        System.out.println(pp.testing());
@@ -41,14 +41,20 @@ public class Solution {
 //        CanReach cr = new CanReach();
 //        System.out.println(cr.testing());
         
-//        PreSuffix ps = new PreSuffix();
-//        System.out.println(ps.testing());
+//        PreSuffix ps = new PreSuffix();//need to figure out the meaning of the problem
+//        System.out.println(ps.testing2());
         
 //        FinalDiscounted fd = new FinalDiscounted();
 //        System.out.println(fd.testing());
         
 //        RGB rgb = new RGB();
 //        System.out.println(rgb.testing());
+        
+//        Dominated dd = new Dominated();//has bug
+//        System.out.println(dd.testing());
+        
+        RoyalNum rn = new RoyalNum();
+        System.out.println(rn.testing());
     }
 }
 

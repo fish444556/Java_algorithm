@@ -110,6 +110,22 @@ class SegmentTreeRMQ
 		// Print minimum value in arr[qs..qe]
 		System.out.println("Minimum of values in range [" + qs + ", "
 						+ qe + "] is = " + tree.RMQ(n, qs, qe));
+		
+		SegmentTreeRMQ tree2 = new SegmentTreeRMQ();
+		
+		int[] test2 = {10, 20, 30, 40, 11, 22, 33, 44, 15, 5};
+		int[][] seArr = {{0, 5}, {1,2}, {8,9}, {0,9}, {4, 6}};
+		int len = test2.length;
+		tree2.constructST(test2, len);
+		int[] groundTrue = {10, 20, 5, 5, 11};
+		for (int i = 0; i < seArr.length; i++) {
+			if (tree2.RMQ(len, seArr[i][0], seArr[i][1]) != groundTrue[i]) {
+				System.out.println("The " + i + " index has error");
+			}
+			else  {
+				System.out.println("The " + i + " index has no error");
+			}
+		}
 	}
 }
 //This code is contributed by Ankur Narain Verma
