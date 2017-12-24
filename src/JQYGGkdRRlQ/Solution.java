@@ -53,8 +53,14 @@ public class Solution {
 //        Dominated dd = new Dominated();//has bug
 //        System.out.println(dd.testing());
         
-        RoyalNum rn = new RoyalNum();
-        System.out.println(rn.testing());
+//        RoyalNum rn = new RoyalNum();
+//        System.out.println(rn.testing());
+        
+//        ReformattingDate rf = new ReformattingDate();
+//        System.out.println(rf.testing());
+        
+        MagicalBinaryStr mb = new MagicalBinaryStr();
+        System.out.println(mb.testing());
     }
 }
 
