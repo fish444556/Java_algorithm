@@ -23,8 +23,8 @@ public class Solution {
         String[] input = {"eat", "tea", "tan", "ate", "nat", "bat"};
 //        MySolution ms = new MySolution();
         
-//        Task ts = new Task();
-//        ts.testing();
+        Task ts = new Task();
+        System.out.println(ts.testing());
         
 //        Metals mt = new Metals();
 //        mt.testing();
@@ -62,8 +62,8 @@ public class Solution {
 //        MagicalBinaryStr mb = new MagicalBinaryStr();
 //        System.out.println(mb.testing());
         
-        SubArrayProducts ss = new SubArrayProducts();
-        System.out.println(ss.testing());
+//        SubArrayProducts ss = new SubArrayProducts();
+//        System.out.println(ss.testing());
         
 //        UniqueArraySum ua = new UniqueArraySum();
 //        System.out.println(ua.testing());
