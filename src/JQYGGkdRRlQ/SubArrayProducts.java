@@ -7,6 +7,7 @@ public class SubArrayProducts {
 		int[] a3 = {5,3,2};
 		int[] a4 = {100,200};
 		int[] a5 = {1,2,3};
+		int[] a6 = {1,2,3};
 		if (countSubArrayProductLessThanK(a1, 10) != 7				
 				|| countSubArrayProductLessThanK(a2, 100) != 16
 				|| countSubArrayProductLessThanK(a3, 16) != 5
